@@ -154,6 +154,32 @@ h2 {
     text-align: left;
 }
 
+
+input[type=submit] {
+    -webkit-border-radius:0px!important;
+    -webkit-appearance: none!important;
+    -moz-appearance: none;
+    appearance: none;
+}
+
+
+input[type=text] {
+    -webkit-border-radius:0px!important;
+    -webkit-appearance: none!important;
+    -moz-appearance: none;
+    appearance: none;
+}
+
+
+input, textarea, button {
+    box-shadow: none !important;
+    -webkit-appearance: none!important;
+    -moz-appearance: none;
+    appearance: none;
+    border-radius: 0;
+  }
+
+
 a.btn {
     display: flex;
     flex-direction: row;
@@ -260,17 +286,6 @@ footer {
     text-decoration:none;
 }
 
-
-
-
-input[type=submit] {
-    -webkit-border-radius:0px;
-}
-
-input, textarea, button {
-    -webkit-appearance: none!important;
-    border-radius: 0;
-  }
 
 /*Moto*/
 @media only screen and (min-width: 300px) {
