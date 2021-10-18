@@ -162,7 +162,8 @@ a.btn {
     padding: 15px;
     width: 10rem;
     border:0px solid;
-    border-radius: 0px;
+    border-radius: 0px!important;
+    -webkit-appearance: none!important;
 }
 
 .buttonpink img {
@@ -267,7 +268,7 @@ input[type=submit] {
 }
 
 input, textarea, button {
-    -webkit-appearance: none;
+    -webkit-appearance: none!important;
     border-radius: 0;
   }
 
